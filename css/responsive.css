@@ -5,6 +5,10 @@
         width: 95%;
     }
 
+    img {
+        max-width: 100%;
+    }
+
     /* MAIN */
     /* Demo section */
     .demo .row {
@@ -14,7 +18,12 @@
     }
 
     .content-left {
+        text-align: left;
         width: 67%;
+    }
+
+    .phone img {
+        height: 200px;
     }
 
     .content-right {
@@ -31,4 +40,14 @@
     }
 
     /* Planning section */
+
+    .card {
+        display: flex;
+    }
+
+    /* benefits section */
+
+    .benefit-row {
+        width: calc(100% / 2);
+    }
 }

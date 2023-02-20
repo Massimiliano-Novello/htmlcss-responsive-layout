@@ -4,11 +4,39 @@
   box-sizing: border-box;
 }
 
+body {
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'PT Sans', sans-serif;;
+}
+
+img {
+    max-width: 100%;
+}
+
 /* COOMON */
 /* layout */
 .container {
     width: 80%;
     margin: 0 auto;
+}
+.bnt {
+    background-color: #0084FD;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 70px;
+    border-radius: 30px;
+    font-size: .8rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #0C8AFD;
+}
+
+p {
+    font-size: .8rem;
+    padding: 20px 0;
 }
 
 /* HEADER */
@@ -20,8 +48,15 @@
 .header-menu {
     display: flex;
     justify-content: space-between;
-    line-height: 80px;
+    align-items: center;
+    padding: 20px 0;
 }
+
+.menu a {
+    color: white;
+}
+
+
 
 .nav-bar {
     display: none;
@@ -37,12 +72,41 @@
 .content-left,
 .content-right {
     margin: 10px 0;
-    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #B5DDFF;
+}
+
+
+.content-left .bnt {
+    margin: 20px 0;
+}
+
+
+.content-right i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.phone img {
+    height: 200px;
 }
 
 .second-row .informations {
     margin: 10px 0;
-    border: 1px solid black;
+}
+
+.informations {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #B5DDFF;
+}
+
+.informations i {
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 /* Planning section */
@@ -55,7 +119,6 @@
     margin-bottom: 1rem;
     /* debug */
     background-color: aquamarine;
-    height: 200px;
 }
 
 .app-planning {
@@ -81,8 +144,16 @@
 }
 
 .card {
+    text-align: center;
     margin: 10px 0;
     background-color: #9792E4;
     /* debug */
     height: 100px;
+}
+
+.benefits-card {
+    margin: 10px 0;
+    /* debug */
+    background-color: lightcoral;
+    min-height: 100px;
 }
