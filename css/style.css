@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 /* COOMON */
@@ -25,4 +25,64 @@
 
 .nav-bar {
     display: none;
+}
+
+/* MAIN */
+/* Demo section */
+
+.row  {
+    margin: 10px 0;
+}
+
+.content-left,
+.content-right {
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+.second-row .informations {
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+/* Planning section */
+.planning {
+    padding: 20px 0;
+    background-color: #9792E4;
+}
+
+.strategic-planning {
+    margin-bottom: 1rem;
+    /* debug */
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.app-planning {
+    background-color: aquamarine;
+    /* debug */
+    height: 200px;
+}
+
+/* Partners section */
+.partner {
+    padding: 20px 0;
+}
+
+
+.testimonial {
+    /* debug */
+    height: 100px;
+    background-color: lightblue;
+}
+
+.partners-card {
+    padding: 20px 0;
+}
+
+.card {
+    margin: 10px 0;
+    background-color: #9792E4;
+    /* debug */
+    height: 100px;
 }
