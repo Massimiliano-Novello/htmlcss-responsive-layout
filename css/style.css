@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+
+/* COOMON */
+/* layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+    background-color: #9792E4;
+    height: 80px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+}
+
+.nav-bar {
+    display: none;
+}
