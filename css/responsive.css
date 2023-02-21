@@ -2,8 +2,9 @@
 @media screen and (min-width: 769px) {
     /* General */
     .container {
-        width: 95%;
-    }
+        width: 90%;
+        margin: 0 auto;
+    } 
 
     img {
         max-width: 100%;
@@ -40,14 +41,56 @@
     }
 
     /* Planning section */
-
-    .card {
-        display: flex;
+    .strategic-planning img {
     }
 
     /* benefits section */
 
     .benefit-row {
         width: calc(100% / 2);
+    }
+}
+
+/* Dekstop 992*/
+@media screen and (min-width: 992px) {
+    /* COMMON */
+    /* General */
+
+    .container {
+        width: 70%;
+        max-width: 1100px;
+    }
+
+    /* HEADER */
+    .menu {
+        display: none;
+    }
+
+    .nav-bar {
+        display: inline-block;
+        color: white;
+    }
+
+    .nav-bar a {
+        margin: 0 10px;
+    }
+
+    .nav-bar a:last-child {
+        color: black;
+        background-color: white;
+        display: inline-block;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    /* MAIN */
+    /* Demo section */
+
+    .content-left {
+        display: flex;
+    }
+    
+    .phone img {
+        margin-top: 25px;
     }
 }

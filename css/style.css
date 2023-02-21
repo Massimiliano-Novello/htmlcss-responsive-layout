@@ -5,7 +5,6 @@
 }
 
 body {
-    font-family: 'Fredoka', sans-serif;
     font-family: 'PT Sans', sans-serif;;
 }
 
@@ -16,8 +15,7 @@ img {
 /* COOMON */
 /* layout */
 .container {
-    width: 80%;
-    margin: 0 auto;
+    padding: 0 20px;
 }
 .bnt {
     background-color: #0084FD;
@@ -34,9 +32,19 @@ h3 {
     color: #0C8AFD;
 }
 
+h2 {
+    color: white;
+    font-size: 1.5rem;
+}
+
 p {
     font-size: .8rem;
     padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* HEADER */
@@ -62,6 +70,7 @@ p {
     display: none;
 }
 
+
 /* MAIN */
 /* Demo section */
 
@@ -74,7 +83,6 @@ p {
     margin: 10px 0;
     padding: 10px;
     border-radius: 10px;
-    text-align: center;
     background-color: #B5DDFF;
 }
 
@@ -89,8 +97,13 @@ p {
     margin-bottom: 10px;
 }
 
+.content-right {
+    text-align: center;
+}
+
 .phone img {
-    height: 200px;
+    max-width: 200px;
+    display: block;
 }
 
 .second-row .informations {
@@ -117,14 +130,37 @@ p {
 
 .strategic-planning {
     margin-bottom: 1rem;
-    /* debug */
-    background-color: aquamarine;
+}
+
+.strategic-planning img {
+    max-width: 300px;
+}
+
+.strategic-planning p {
+    color: white;
 }
 
 .app-planning {
-    background-color: aquamarine;
-    /* debug */
-    height: 200px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.app-planning img {
+    max-width: 300px;
+}
+
+.app-planning h2 {
+    color: black;
+}
+
+.arrow i {
+    font-size: 1.3rem;
+    background-color: #0084FD;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 20px;
 }
 
 /* Partners section */
