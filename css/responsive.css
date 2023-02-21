@@ -11,7 +11,7 @@
     }
 
     p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     /* MAIN */
@@ -71,6 +71,24 @@
         gap: 30px;
     }
 
+    /* .beta section */
+    .beta-container  {
+        width: 60%;
+        display: inline-block;
+    }
+
+    .beta-content .bnt {
+        background-color: white;
+        color: #0084FD;
+        font-size: 1rem
+    }
+
+    /* FOOTER */
+    .footer-section {
+        width: 40%;
+        display: inline-block;
+    }
+
 }
 
 /* Dekstop 992*/
@@ -81,6 +99,10 @@
     .container {
         width: 70%;
         max-width: 1100px;
+    }
+
+    p {
+        font-size: .8rem;
     }
 
     /* HEADER */
@@ -137,4 +159,31 @@
     .benefits-card {
         width: calc((100% / 3) - (20px / 3));
      }
+
+     /* .beta section */
+    .beta-container  {
+        width: 50%;
+        display: inline-block;
+    }
+
+    .beta-content .bnt {
+        background-color: white;
+        color: #0084FD;
+        font-size: 1rem
+    }
+
+    /* FOOTER */
+    .footer-section {
+        width: 40%;
+        display: inline-block;
+    }
+}
+
+/* Desktop 1200 */
+@media screen and (min-width: 1200px) {
+    header,main,
+    footer {
+        max-width: 1500px;
+    }
+    
 }

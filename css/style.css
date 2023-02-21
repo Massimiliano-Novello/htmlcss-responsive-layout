@@ -38,7 +38,7 @@ h2 {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 20px 0;
 }
 
@@ -279,4 +279,65 @@ a {
 .img-about-us .bnt {
     padding: 10px;
     font-size: 1rem;
+}
+
+/* Beta section */
+
+.beta-section {
+    padding: 20px;
+    background-color: #0084FD;
+    text-align: center;
+}
+
+.started {
+    color: white;
+    font-size: 1.4rem;
+    opacity: .4;
+}
+
+.beta-content h3 {
+    color: white;
+}
+
+.beta-content h2 {
+    color: orange;
+    font-size: 2.5rem;
+}
+
+.beta-content p {
+    color: white;
+}
+
+.beta-content .bnt {
+    background-color: white;
+    color: #0084FD;
+    font-size: 1.5rem
+}
+
+.copyright {
+    margin-top: 20px;
+    color: white;
+}
+
+.copyright span {
+    font-size: 1rem;
+}
+
+.copyright i {
+    font-size: .6rem;
+}
+
+/* FOOTER */
+.footer {
+    padding: 20px 50px;
+    text-align: center;
+    background-color: black;
+}
+
+.footer-section {
+    color: white;
+}
+
+.footer-section a {
+    color: blue;
 }
