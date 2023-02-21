@@ -10,6 +10,10 @@
         max-width: 100%;
     }
 
+    p {
+        font-size: 1.2rem;
+    }
+
     /* MAIN */
     /* Demo section */
     .demo .row {
@@ -41,14 +45,32 @@
     }
 
     /* Planning section */
-    .strategic-planning img {
+    
+
+    /* Parter section */
+
+    .card {
+        display: flex;
     }
 
     /* benefits section */
 
     .benefit-row {
-        width: calc(100% / 2);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
     }
+
+    .benefits-card {
+       width: calc((100% / 2) - (20px / 2));
+    }
+
+    /* About us section */
+    .about-us-content {
+        display: flex;
+        gap: 30px;
+    }
+
 }
 
 /* Dekstop 992*/
@@ -93,4 +115,26 @@
     .phone img {
         margin-top: 25px;
     }
+    /* Planning section */
+
+    .planning-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .strategic-planning img {
+        margin-bottom: 50px;
+        margin-top: 25px;
+    }
+
+    .app-planning {
+        margin-top: 90px;
+        margin-left: 36px;
+    }
+
+    /* Benefits section */
+
+    .benefits-card {
+        width: calc((100% / 3) - (20px / 3));
+     }
 }

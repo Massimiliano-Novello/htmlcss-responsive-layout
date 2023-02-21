@@ -28,7 +28,7 @@ img {
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #0C8AFD;
 }
 
@@ -38,7 +38,7 @@ h2 {
 }
 
 p {
-    font-size: .8rem;
+    font-size: 1.2rem;
     padding: 20px 0;
 }
 
@@ -133,7 +133,9 @@ a {
 }
 
 .strategic-planning img {
-    max-width: 300px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
 }
 
 .strategic-planning p {
@@ -148,11 +150,15 @@ a {
 }
 
 .app-planning img {
-    max-width: 300px;
+    height: 200px;
 }
 
 .app-planning h2 {
     color: black;
+}
+
+.app-planning p {
+    font-style: italic;
 }
 
 .arrow i {
@@ -170,9 +176,12 @@ a {
 
 
 .testimonial {
-    /* debug */
-    height: 100px;
-    background-color: lightblue;
+    text-align: center;
+}
+
+.partner h2 {
+    color: #0084FD;
+    padding: 20px 0;
 }
 
 .partners-card {
@@ -180,16 +189,94 @@ a {
 }
 
 .card {
+    padding: 30px;
     text-align: center;
     margin: 10px 0;
+    border-radius: 20px;
     background-color: #9792E4;
-    /* debug */
-    height: 100px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card p {
+    color: white;
+}
+
+.card h3 {
+    color: white;
+}
+
+/* Benefits section */
+.benefits-section {
+    background: #0084FD;
+    padding: 20px 0;
+}
+
+.benefits-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
 }
 
 .benefits-card {
     margin: 10px 0;
-    /* debug */
-    background-color: lightcoral;
-    min-height: 100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.benefits-card p {
+    color: rgba(0, 0, 0, .6);
+}
+
+.benefits-card .bnt {
+    padding: 10px 30px;
+}
+
+.number {
+    color: #0C8AFD;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* About us section */
+
+.about-us {
+    padding: 20px 0;
+}
+
+.title-about-us h2 {
+    color: #0084FD;
+    font-size: 2rem;
+}
+
+.title-about-us p {
+    margin-bottom: 20px;
+}
+
+
+.img-about-us img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.quotes {
+    color: #0C8AFD;
+    font-size: 4rem;
+}
+
+.img-about-us h3 {
+    padding: 35px 0;
+}
+
+.img-about-us .bnt {
+    padding: 10px;
+    font-size: 1rem;
 }
